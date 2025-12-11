@@ -93,7 +93,7 @@ export const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4 mb-12 animate-slide-up" style={{ animationDelay: "0.3s" }}>
             <Button variant="glow" size="lg" asChild>
-              <a href="/RESUME.pdf" download>
+              <a href="/anmol-portfolio/RESUME.pdf" download>
                 <Download className="mr-2" size={18} />
                 Download Resume
               </a>

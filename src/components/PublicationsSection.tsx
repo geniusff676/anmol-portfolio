@@ -47,27 +47,27 @@ const certifications = [
     title: "Deep Learning",
     issuer: "NPTEL – IIT Ropar",
     // you included an NPTEL certificate link previously
-    link: "/NPTEL_DL_certificate.jpeg",
+    link: "/anmol-portfolio/NPTEL_DL_certificate.jpeg",
   },
   {
     title: "DGCA Remote Pilot Certificate",
     issuer: "Directorate General of Civil Aviation",
-    link: "/rpc.pdf",
+    link: "/anmol-portfolio/rpc.pdf",
   },
   {
     title: "Drone Bootcamp",
     issuer: "IIT Mandi",
-    link: "/drone_bootcamp_certificate.pdf",
+    link: "/anmol-portfolio/drone_bootcamp_certificate.pdf",
   },
   {
     title: "Python Certificate",
     issuer: "IIT Bombay — Spoken Tutorial",
-    link: "/python_certificate.pdf",
+    link: "/anmol-portfolio/python_certificate.pdf",
   },
   {
     title: "AI/ML Workshop",
     issuer: "IIT Mandi",
-    link: "/aiml_certificate.pdf",
+    link: "/anmol-portfolio/aiml_certificate.pdf",
   },
 ];
 

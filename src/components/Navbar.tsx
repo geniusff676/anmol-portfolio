@@ -46,7 +46,7 @@ export const Navbar = () => {
             </a>
           ))}
           <Button variant="glow" size="sm" asChild>
-            <a href="/RESUME.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/anmol-portfolio/RESUME.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
           </Button>
