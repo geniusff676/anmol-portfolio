@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# ⭐ Personal Portfolio – Anmol Garg
 
-## Project info
+A modern, responsive, animated developer portfolio built using **React + TypeScript + Vite + Tailwind CSS + shadcn-ui**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This portfolio showcases my work across **AI/ML, Deep Learning, Computer Vision, Backend Development**, along with my projects, research publications, achievements, and certifications.
 
-## How can I edit this code?
+**Live Portfolio:** *(Add your GitHub Pages link here after deployment)*  
+**GitHub Repo:** *(This repository)*
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- ✨ Fully responsive, **glass-morphism UI**
+- 🎭 Smooth animations & scroll interactions
+- 📑 Sections for:
+  - About Me
+  - Skills
+  - Experience
+  - Featured Projects
+  - Research & Achievements
+  - Certifications
+  - Contact
+- 🃏 Dynamic project cards with expand animation
+- 😄 Humorous **"View Code Locked"** popup for patent-filed projects
+- 🔧 Easy to update & extend
+- 🚀 Supports deployment via **GitHub Pages**
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧠 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | React, TypeScript, Vite |
+| **UI/Styling** | Tailwind CSS, shadcn-ui, lucide-react |
+| **Animations** | Framer Motion / Custom CSS transitions |
+| **Version Control** | Git & GitHub |
+| **Deployment** | GitHub Pages |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📌 Folder Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+ ├── components/
+ │    ├── AboutSection.tsx
+ │    ├── ExperienceSection.tsx
+ │    ├── ProjectsSection.tsx
+ │    ├── PublicationsSection.tsx
+ │    ├── SkillsSection.tsx
+ │    ├── ContactSection.tsx
+ │    ├── Navbar.tsx
+ │    └── Footer.tsx
+ ├── pages/
+ │    └── index.tsx (if present)
+ ├── assets/
+ └── main.tsx
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔄 Updating Website After Deployment
 
-**Use GitHub Codespaces**
+Any time you change the code:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git add .
+git commit -m "update: something"
+git push
+npm run deploy
+```
 
-## What technologies are used for this project?
+Your GitHub Pages site will refresh automatically.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📚 Credits
 
-## How can I deploy this project?
+- **UI Components:** [shadcn-ui](https://ui.shadcn.com/)
+- **Icons:** [lucide-react](https://lucide.dev/)
+- **Hosting:** GitHub Pages
+- **Lovable AI** used for initial generation
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 👨‍💻 Author
 
-Yes, you can!
+**Anmol Garg**  
+AI/ML & Backend Developer
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- 🎓 GATE DA 2025 Qualified
+- ✈️ DGCA Certified Remote Pilot
+- 📄 Research Publications & Patent Filed
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**LinkedIn:** [https://linkedin.com/in/anmol-garg-7ba021261](https://linkedin.com/in/anmol-garg-7ba021261)  
+**GitHub:** [https://github.com/geniusff676](https://github.com/geniusff676)
+
+---
+
