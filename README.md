@@ -4,8 +4,7 @@ A modern, responsive, animated developer portfolio built using **React + TypeScr
 
 This portfolio showcases my work across **AI/ML, Deep Learning, Computer Vision, Backend Development**, along with my projects, research publications, achievements, and certifications.
 
-**Live Portfolio:** *(Add your GitHub Pages link here after deployment)*  
-**GitHub Repo:** *(This repository)*
+**Live Portfolio:** *https://geniusff676.github.io/anmol-portfolio/*  
 
 ---
 
@@ -81,7 +80,6 @@ Your GitHub Pages site will refresh automatically.
 - **UI Components:** [shadcn-ui](https://ui.shadcn.com/)
 - **Icons:** [lucide-react](https://lucide.dev/)
 - **Hosting:** GitHub Pages
-- **Lovable AI** used for initial generation
 
 ---
 
