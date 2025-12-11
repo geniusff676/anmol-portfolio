@@ -153,7 +153,7 @@ export const ContactSection = () => {
                 />
               </div>
 
-              <Button
+              <Button 
                 type="submit"
                 variant="glow"
                 size="lg"

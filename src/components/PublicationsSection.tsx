@@ -38,7 +38,7 @@ const achievements = [
     icon: Medal,
     title: "College-level Hackathon Winner",
     description: "First prize in college hackathon for AI-based solution",
-    link: "/college_hackathon.pdf",
+    link: "/anmol-portfolio/college_hackathon.pdf",
   },
 ];
 
