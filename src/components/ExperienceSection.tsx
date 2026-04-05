@@ -1,7 +1,21 @@
 import { Briefcase, Calendar, MapPin, ChevronRight } from "lucide-react";
 
 const experiences = [
+    {
+    title: "Network Engineer Trainee",
+    company: "Network Bulls",
+    location: "Gurugram, India",
+    period: "Jan 2026 - Present",
+    description: [
+      "Completed CCNA-level training with hands-on practice in routing, switching, and IP addressing (IPv4/IPv6)",
+      "Configured VLANs, ACLs, and basic network setups in lab environments",
+      "Worked on real-world network troubleshooting scenarios and protocol behavior",
+      "Currently exploring CCNP-level concepts to deepen understanding of advanced networking"
+    ],
+    tech: ["Routing & Switching", "IPv4/IPv6", "VLANs", "ACLs", "Network Troubleshooting"]
+  },
   {
+    
     title: "Research Intern",
     company: "IIT Mandi",
     location: "India",

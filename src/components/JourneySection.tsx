@@ -70,12 +70,19 @@ const timelineData = [
     highlight: true,
   },
   {
+  year: "2026",
+  title: "Network Engineer Trainee",
+  description: "Network Bulls — hands-on with routing, switching, and troubleshooting",
+  icon: Briefcase,
+  highlight: false,
+  },
+  {
     year: "2026",
-    title: "Working toward next internship",
-    description: "Graduating soon",
+    title: "Looking for Next Opportunity",
+    description: "Open to roles in networking and systems where learning continues through real-world problem solving",
     icon: Zap,
     future: true,
-  },
+  }
 ];
 
 const TimelineItem = ({ item, index, isVisible }) => {

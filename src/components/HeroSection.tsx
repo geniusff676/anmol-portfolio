@@ -4,9 +4,14 @@ import { useState, useEffect } from "react";
 
 const taglines = [
   "Building intelligent systems and scalable APIs.",
-  "Transforming research into real-world applications.",
+  "Designing networks that are fast, secure, and reliable.",
   "Crafting AI solutions that make a difference.",
-  "From neural networks to production-ready systems.",
+  "Solving network problems with automation and intelligence.",
+  "From packet flow to intelligent network systems.",
+  // Designing networks that are fast, secure, and reliable."
+// "Solving network problems with automation and intelligence."
+// "Building scalable networks for real-world performance."
+// "From packet flow to intelligent network systems."
 ];
 
 export const HeroSection = () => {
@@ -72,13 +77,19 @@ export const HeroSection = () => {
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-slide-up font-mono" style={{ animationDelay: "0.1s" }}>
             <span className="text-primary">{"<"}</span>
             <span className="bg-gradient-to-r from-primary to-accent bg-[length:200%_auto] animate-gradient bg-clip-text text-transparent">
-              AI/ML Developer
+              Network Engineer
             </span>
             <span className="text-primary">{" />"}</span>
             {" • "}
             <span className="text-accent">{"<"}</span>
             <span className="bg-gradient-to-r from-accent to-primary bg-[length:200%_auto] animate-gradient bg-clip-text text-transparent" style={{ animationDelay: "0.5s" }}>
-              Backend Developer
+              CCNA & CCNP
+            </span>
+            <span className="text-accent">{" />"}</span>
+            {" • "}
+            <span className="text-accent">{"<"}</span>
+            <span className="bg-gradient-to-r from-accent to-primary bg-[length:200%_auto] animate-gradient bg-clip-text text-transparent" style={{ animationDelay: "0.5s" }}>
+              AI/ML Developer
             </span>
             <span className="text-accent">{" />"}</span>
           </p>
