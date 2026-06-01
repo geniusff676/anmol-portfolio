@@ -77,6 +77,14 @@ const timelineData = [
   highlight: false,
   },
   {
+  year: "2026",
+  title: "Graduated B.Tech CSE (AI & ML)",
+  description: "Four years of learning, building, researching, and discovering networking • Level 2 Starting",
+  icon: GraduationCap,
+  future: true,
+  },
+
+  {
     year: "2026",
     title: "Looking for Next Opportunity",
     description: "Open to roles in networking and systems where learning continues through real-world problem solving",

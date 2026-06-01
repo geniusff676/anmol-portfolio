@@ -13,9 +13,9 @@ const publications = [
   {
     title: "Lumpy Skin Disease Detection in Cattle",
     venue: "Doctoral Symposium on Computational Intelligence",
-    type: "Presented Paper",
+    type: "Published Paper",
     // still under publication / no public link yet
-    link: null,
+    link: "https://doi.org/10.1007/978-981-96-8104-4_18",
   },
 ];
 

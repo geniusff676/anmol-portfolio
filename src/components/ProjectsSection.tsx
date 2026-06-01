@@ -7,10 +7,64 @@ import {
   Eye,
   Brain,
   Shield,
+  Network,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
+
+  {
+    title: "Design and Simulation of Hierarchical Enterprise Network Architecture",
+    subtitle: "Industrial Project · Enterprise Networking",
+    icon: Network,
+    featured: true,
+
+    description:
+      "Designed and simulated a scalable three-tier enterprise network architecture in EVE-NG with Core, Distribution, and Access layers. Implemented enterprise-grade routing, switching, redundancy, security, and network services to support reliable inter-department communication.",
+
+    role:
+      "Designed the complete network topology, IP addressing scheme, VLAN architecture, routing, redundancy, and enterprise services. Performed deployment, verification, troubleshooting, and documentation of the entire infrastructure.",
+
+    features: [
+      "Three-tier architecture with Core, Distribution, and Access layers",
+      "VLANs, Inter-VLAN Routing, 802.1Q Trunking, and VTP implementation",
+      "OSPF dynamic routing with dual ISP connectivity",
+      "HSRP for gateway redundancy and high availability",
+      "EtherChannel and Rapid PVST+ for optimized Layer-2 performance",
+      "DHCP, DNS, NAT/PAT, SSH v2, and Web Server deployment",
+      "Network verification and troubleshooting using Cisco IOS tools",
+    ],
+
+    tech: [
+      "EVE-NG",
+      "Cisco IOS",
+      "OSPF",
+      "BGP",
+      "HSRP",
+      "EtherChannel",
+      "Rapid PVST+",
+      "VLANs",
+      "NAT/PAT",
+      "DHCP",
+      "DNS",
+      "SSH",
+    ],
+
+    highlights: [
+      "Full-scale enterprise network simulation",
+      "High availability and fault-tolerant design",
+      "Industry-standard Cisco networking technologies",
+    ],
+
+    github: "https://github.com/geniusff676/Design-and-Simulation-of-Hierarchical-Enterprise-Network-Architecture.git",
+    demo: null,
+
+    tag: {
+      text: "Industrial Project",
+      classes: "bg-blue-500/20 text-blue-500 border border-blue-500/30",
+    },
+  },
+
   {
     title: "Smart Cap — AI-Powered Assistive Vision",
     subtitle: "Major Project · For the Visually Impaired",

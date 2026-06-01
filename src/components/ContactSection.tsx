@@ -43,8 +43,7 @@ export const ContactSection = () => {
             {/* Contact Info */}
             <div className="space-y-8">
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I'm actively seeking opportunities in AI/ML and backend development. Whether you have 
-                a project in mind or just want to connect, feel free to reach out!
+                 I'm actively seeking opportunities in networking, network operations, and IT infrastructure. Whether you have a project in mind, a networking challenge to solve, or simply want to connect, feel free to reach out!
               </p>
 
               <div className="space-y-4">
