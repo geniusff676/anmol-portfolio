@@ -56,7 +56,7 @@ const projects = [
       "Industry-standard Cisco networking technologies",
     ],
 
-    github: "https://github.com/geniusff676/Design-and-Simulation-of-Hierarchical-Enterprise-Network-Architecture.git",
+    github: "https://github.com/geniusff676/Hierarchical-Enterprise-Network-Architecture.git",
     demo: null,
 
     tag: {
