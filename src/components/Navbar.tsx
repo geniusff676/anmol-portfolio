@@ -46,8 +46,8 @@ export const Navbar = () => {
             </a>
           ))}
           <Button variant="glow" size="sm" asChild>
-            <a href="/anmol-portfolio/RESUME.pdf" target="_blank" rel="noopener noreferrer">
-            Resume
+            <a href="/anmol-portfolio/CV.pdf" target="_blank" rel="noopener noreferrer">
+            VIEW CV
           </a>
           </Button>
         </div>
@@ -75,8 +75,8 @@ export const Navbar = () => {
             </a>
           ))}
           <Button variant="glow" size="sm" className="mt-4 w-full" asChild>
-            <a href="/resume.pdf" download>
-              Resume
+            <a href="/CV.pdf" download>
+              CV
             </a>
           </Button>
         </div>

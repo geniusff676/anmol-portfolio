@@ -104,9 +104,9 @@ export const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4 mb-12 animate-slide-up" style={{ animationDelay: "0.3s" }}>
             <Button variant="glow" size="lg" asChild>
-              <a href="/anmol-portfolio/RESUME.pdf" download>
+              <a href="/anmol-portfolio/CV.pdf" download>
                 <Download className="mr-2" size={18} />
-                Download Resume
+                Download CV
               </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
@@ -287,7 +287,7 @@ export const HeroSection = () => {
 //                 <Button variant="glow" size="lg" asChild>
 //                   <a href="/RESUME.pdf" download>
 //                     <Download className="mr-2" size={18} />
-//                     Download Resume
+//                     Download CV
 //                   </a>
 //                 </Button>
 //                 <Button variant="outline" size="lg" asChild>

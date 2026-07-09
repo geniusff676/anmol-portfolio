@@ -24,7 +24,7 @@ const achievements = [
     icon: Award,
     title: "GATE DA 2025 Qualified",
     description: "Qualified Graduate Aptitude Test in Engineering - Data Science & AI",
-    // GATE score link you provided earlier in the resume
+    // GATE score link you provided earlier in the CV
     link: "https://drive.google.com/file/d/16uMm1mLJsVzKmG_sJPET2XbfrC2W62pe/view?usp=drive_link",
   },
   {
