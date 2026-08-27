@@ -69,27 +69,14 @@ export const AboutSection = () => {
                   <p className="text-foreground font-medium text-sm">India</p>
                 </div>
                 <div className="glass rounded-lg p-4 glass-hover">
-                  <p className="text-muted-foreground text-xs mb-1">Status</p>
-                  <p className="text-primary font-medium text-sm">Open to Work</p>
+                  <p className="text-muted-foreground text-xs mb-1">Focus</p>
+                  <p className="text-primary font-medium text-sm">Networking & Infrastructure</p>
                 </div>
               </div>
             </div>
 
             {/* ── Right: skill cards ── */}
             <div className="grid grid-cols-2 gap-3">
-
-              {/* AI/ML */}
-              <div className="glass rounded-xl p-5 glass-hover flex flex-col gap-3">
-                <div className="w-8 h-8 rounded-md bg-primary/10 flex items-center justify-center">
-                  <Brain size={16} className="text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-foreground font-semibold text-sm mb-1">AI / ML</h3>
-                  <p className="text-muted-foreground text-xs leading-relaxed">
-                    Deep learning, CNNs, computer vision, model optimization
-                  </p>
-                </div>
-              </div>
 
               {/* CCNA */}
               <div className="glass rounded-xl p-5 glass-hover flex flex-col gap-3">
@@ -113,6 +100,19 @@ export const AboutSection = () => {
                   <h3 className="text-foreground font-semibold text-sm mb-1">CCNP</h3>
                   <p className="text-muted-foreground text-xs leading-relaxed">
                     Advanced routing, network design, automation, scale troubleshooting
+                  </p>
+                </div>
+              </div>
+
+              {/* AI/ML */}
+              <div className="glass rounded-xl p-5 glass-hover flex flex-col gap-3">
+                <div className="w-8 h-8 rounded-md bg-primary/10 flex items-center justify-center">
+                  <Brain size={16} className="text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-foreground font-semibold text-sm mb-1">AI / ML</h3>
+                  <p className="text-muted-foreground text-xs leading-relaxed">
+                    Deep learning, CNNs, computer vision, model optimization
                   </p>
                 </div>
               </div>
@@ -153,71 +153,6 @@ export const AboutSection = () => {
 };
 
 
-
-
-
-
-
-
-// import { Terminal, Brain, Server, Network } from "lucide-react";
-
-// export const AboutSection = () => {
-//   return (
-//     <section id="about" className="section-padding relative">
-//       <div className="container mx-auto px-4">
-//         <div className="max-w-4xl mx-auto">
-//           {/* Section Header */}
-//           <div className="flex items-center gap-4 mb-12">
-//             <span className="text-primary font-mono text-lg">01.</span>
-//             <h2 className="text-3xl md:text-4xl font-bold text-foreground">About Me</h2>
-//             <div className="flex-1 h-px bg-border" />
-//           </div>
-
-//           <div className="grid md:grid-cols-3 gap-8">
-//             {/* Main About Text */}
-//             <div className="md:col-span-2 space-y-6">
-//               {/* <p className="text-muted-foreground leading-relaxed text-lg">
-//                 AI/ML and Backend Developer with hands-on experience in{" "}
-//                 <span className="text-primary">deep learning</span>,{" "}
-//                 <span className="text-primary">computer vision</span>, and building{" "}
-//                 <span className="text-accent">scalable APIs</span> using Flask and FastAPI.
-//               </p>
-//               <p className="text-muted-foreground leading-relaxed">
-//                 Worked on real-world projects including medical imaging models, LLM-based scene 
-//                 descriptions, and assistive tech for visually impaired users. Skilled in deploying 
-//                 models, optimizing performance, and integrating ML pipelines on low-power devices 
-//                 like Raspberry Pi.
-//               </p>
-//               <p className="text-muted-foreground leading-relaxed">
-//                 Actively seeking opportunities in <span className="text-primary">AI/ML</span> and{" "}
-//                 <span className="text-accent">backend development</span>.
-//               </p> */}
-// {/* <p className="text-muted-foreground leading-relaxed text-lg">
-//   AI/ML and Backend Developer with hands-on experience in{" "}
-//   <span className="text-primary">deep learning</span>,{" "}
-//   <span className="text-primary">computer vision</span>, and building{" "}
-//   <span className="text-accent">scalable APIs</span> using Flask and FastAPI.
-// </p>
-
-// <p className="text-muted-foreground leading-relaxed">
-//   I enjoy turning complex problems into practical AI systems—whether it's medical
-//   imaging models, <span className="text-primary">LLM-powered scene descriptions</span>, or 
-//   assistive tech for visually impaired users. I’ve also worked on{" "}
-//   <span className="text-accent">ML deployment</span>, performance optimization, and integrating 
-//   pipelines on low-power devices like Raspberry Pi.
-// </p>
-
-// <p className="text-muted-foreground leading-relaxed">
-//   Along the way, I’ve qualified <span className="text-primary">GATE DA</span>, earned a{" "}
-//   <span className="text-accent">DGCA Remote Pilot</span> certification, published research, and 
-//   even filed a patent for an assistive vision system.
-// </p>
-
-// <p className="text-muted-foreground leading-relaxed">
-//   I like building things that blend AI with real-world impact—if that sounds interesting,
-//   feel free to explore the projects below.
-// </p> */}
-// <p className="text-muted-foreground leading-relaxed text-lg">
 //   Exploring the space between{" "}
 //   <span className="text-primary">networks</span> and{" "}
 //   <span className="text-accent">AI systems</span>—how things connect,

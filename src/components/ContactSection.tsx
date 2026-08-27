@@ -69,7 +69,7 @@ export const ContactSection = () => {
             {/* Contact Info */}
             <div className="space-y-8">
               <p className="text-muted-foreground text-lg leading-relaxed">
-                 I'm actively seeking opportunities in networking, network operations, and IT infrastructure. Whether you have a project in mind, a networking challenge to solve, or simply want to connect, feel free to reach out!
+                I make networks and infrastructure work seamlessly. Got a mind-blowing opportunity? Or is your network simply not networking? 😭 Either way, feel free to hit me up. And if it’s after office hours, even better — we can just vibe and talk tech.
               </p>
 
               <div className="space-y-4">

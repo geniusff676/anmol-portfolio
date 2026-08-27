@@ -2,24 +2,25 @@ import { Brain, Server, Code, Database, Cpu,Network } from "lucide-react";
 
 const skillCategories = [
   {
+    icon: Network,
+    title: "Networking",
+    color: "primary",
+    skills: [
+      "IP Addressing & Subnetting",
+      "VLANs & Trunking",
+      "Static & Dynamic Routing (OSPF, EIGRP)",
+      "NAT & ACLs",
+      "IPv4 / IPv6",
+      "Troubleshooting",
+      "Network Automation",
+    ],
+  },
+  {
     icon: Brain,
     title: "Machine Learning / Deep Learning",
     color: "primary",
     skills: ["TensorFlow", "PyTorch", "Keras", "CNNs", "Autoencoders", "Image Segmentation", "Object Detection", "Transfer Learning"],
   },
-  {
-  icon: Network,
-  title: "Networking",
-  color: "primary",
-  skills: [
-    "IP Addressing & Subnetting",
-    "VLANs & Trunking",
-    "Static & Dynamic Routing (OSPF, EIGRP)",
-    "NAT & ACLs",
-    "IPv4 / IPv6",
-    "Troubleshooting","Network Automation"
-  ],
-},
   {
     icon: Server,
     title: "Backend Development",

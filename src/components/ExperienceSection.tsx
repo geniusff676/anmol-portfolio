@@ -2,17 +2,30 @@ import { Briefcase, Calendar, MapPin, ChevronRight } from "lucide-react";
 
 const experiences = [
     {
+      title: "Network Support Engineer",
+      company: "Nirad Networks",
+      location: "Bengaluru, India",
+      period: "Aug 2026 - Present",
+      description: [
+        "Provide network support for routing, switching, and connectivity issues across client infrastructure",
+        "Work with Linux-based networking environments for troubleshooting, maintenance, and basic configuration tasks",
+        "Support stable network operations by handling VLANs, IP addressing, switching issues, and connectivity checks",
+        "Assist in routing and switching problem resolution with a focus on reliability and uptime"
+      ],
+      tech: ["Linux", "Routing & Switching", "VLANs", "IP Networking", "Network Support"]
+    },
+    {
     title: "Network Engineer Trainee",
     company: "Network Bulls",
     location: "Gurugram, India",
-    period: "Jan 2026 - Present",
+    period: "Jan 2026 - Jun 2026",
     description: [
-      "Completed CCNA-level training with hands-on practice in routing, switching, and IP addressing (IPv4/IPv6)",
+      "Completed CCNA training with hands-on practice in routing, switching, and IP addressing (IPv4/IPv6)",
+      "Completed CCNP training covering advanced routing, switching, and enterprise networking concepts",
       "Configured VLANs, ACLs, and basic network setups in lab environments",
-      "Worked on real-world network troubleshooting scenarios and protocol behavior",
-      "Currently exploring CCNP-level concepts to deepen understanding of advanced networking"
+      "Worked on real-world network troubleshooting scenarios and protocol behavior"
     ],
-    tech: ["Routing & Switching", "IPv4/IPv6", "VLANs", "ACLs", "Network Troubleshooting"]
+    tech: ["CCNA", "CCNP", "Routing & Switching", "IPv4/IPv6", "VLANs", "ACLs"]
   },
   {
     
